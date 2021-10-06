@@ -17,7 +17,8 @@ array = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto
 array.shift();
 array.pop();
 // e) - Invertir el orden del array (utilizar reverse).
-
+array = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+array.reverse();
 // f) - Unir todos los elementos del array en un único string donde cada mes este separado por un guión - (utilizar join).
 
 // g) - Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice).
