@@ -20,7 +20,8 @@ var string4 = 'LOREM IPSUM DOLOR SIT AMET';
 var newString = string4.substring(0,1).toUpperCase()+string4.substring(1).toLowerCase();
 /* e) - Crear una variable de tipo string con al menos 10 caracteres y algún espacio en blanco. 
 Encontrar la posición del primer espacio en blanco y guardarla en una variable (utilizar indexOf).*/
-
+var string5 = 'Lorem ipsum dolor sit amet';
+var whitSpaceIndex = string5.indexOf(' ');
 /* f) - Crear una variable de tipo string con al menos 2 palabras largas 
 (10 caracteres y algún espacio entre medio). Utilizar los métodos de los ejercicios anteriores 
 para generar un nuevo string que tenga la primera letra de ambas palabras en mayúscula 
