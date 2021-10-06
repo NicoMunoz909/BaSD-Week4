@@ -46,3 +46,24 @@ function suma(num1, num2) {
 }
 /* e) - Convertir la validación del ejercicio 6b) en una función separada y llamarla dentro de 
 la función suma probando que todo siga funcionando igual. */
+function validateNumber(num) {
+    if (typeof(num) !== 'number') {
+        alert('This is not a number');
+        return false;
+    }
+}
+function suma(num1, num2) {
+    if (!validateNumber(num1) || !validateNumber(num2)) {
+        alert('One of the arguments is not a number');
+        return NaN;
+    } else if (!validateInteger(num1)) {
+        alert('First number is not an integer');
+        return Math.round(num1);
+    } else if (!validateInteger(num2)) {
+        alert('Second number is not an integer');
+        return Math.round(num2);
+    } else {
+        return num1+num2
+    }
+}
+
