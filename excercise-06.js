@@ -20,7 +20,13 @@ function suma(num1, num2) {
 }
 /* c) - Crear una función validate integer que reciba un número como parámetro y devuelva 
 verdadero si es un número entero. */
-
+function validateInteger(num) {
+    if (typeof(num) === 'number' && Math.trunc(num) === num) {
+        return true
+    } else {
+        return false
+    }
+}
 /* d) - A la función suma del ejercicio 6b) agregarle una llamada que valide que los números sean enteros. 
 En caso que haya decimales mostrar un alerta con el error y 
 retorna el número convertido a entero (redondeado). */
