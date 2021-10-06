@@ -23,4 +23,5 @@ array.reverse();
 array = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 var arrayString = array.join('-');
 // g) - Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice).
-
+array = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+var newArray = array.slice(4,11);
