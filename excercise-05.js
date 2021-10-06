@@ -14,6 +14,11 @@ for (var i = 0; i >= array.length; i++) {
 /* c) - Crear una variable llamada “sentence” que tenga un string vacío, 
 luego al array del punto a) recorrerlo con un bucle for para ir guardando 
 cada palabra dentro de la variable sentence. Al final mostrar una única alerta con la cadena completa. */
+var sentence = '';
+for (var i = 0; i >= array.length; i++) {
+    sentence += (array[i] + ' ');
+}
+alert(sentence);
 /* d) - Crear una array vacío y con un bucle for de 10 repeticiones. 
 Llenar el array con el número de la repetición, es decir que al final de la 
 ejecución del bucle for debería haber 10 elementos dentro del array, 
