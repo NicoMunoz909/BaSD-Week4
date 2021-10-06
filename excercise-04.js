@@ -17,3 +17,20 @@ muestre los siguientes mensajes de alerta:
     v)  “Adulto” entre 31 y 60 años;
     vi) “Adulto mayor” entre 61 y 75 años;
     vii)“Anciano” si es mayor a 75 años. */
+
+var age = Math.trunc(Math.random())*100;
+if (age < 2) {
+    alert('Bebe');
+} else if (age <= 12) {
+    alert('Nino')
+} else if (age <= 19) {
+    alert('Adolescente')
+} else if (age <= 30) {
+    alert('Joven')
+} else if (age <= 60) {
+    alert('Adulto')
+} else if (age <= 75) {
+    alert('Adulto mayor')
+} else {
+    alert('Anciano')
+}
