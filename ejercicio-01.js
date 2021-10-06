@@ -13,3 +13,6 @@ var concatenation = string1+string2;
 
 /*Crear dos variables de tipo String y sumar el largo de cada variable (cantidad de letras del string) 
 guardando el resultado de la suma en una 3er variable (utilizar length).*/
+var string3 = 'Lorem';
+var string4 = 'Ipsum';
+var combinedLength = string3.length+string4.length;
