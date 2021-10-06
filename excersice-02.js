@@ -16,7 +16,8 @@ var substring3 = string3.substring(string3.length-3, string3.length);
 /* d) - Crear una variable de tipo string con al menos 10 caracteres y 
 generar un nuevo string con la primera letra en mayúscula y las demás en minúscula. 
 Guardar el resultado en una nueva variable (utilizar substring, toUpperCase, toLowerCase y el operador +).*/
-
+var string4 = 'LOREM IPSUM DOLOR SIT AMET';
+var newString = string4.substring(0,1).toUpperCase()+string4.substring(1).toLowerCase();
 /* e) - Crear una variable de tipo string con al menos 10 caracteres y algún espacio en blanco. 
 Encontrar la posición del primer espacio en blanco y guardarla en una variable (utilizar indexOf).*/
 
