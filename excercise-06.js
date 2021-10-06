@@ -30,6 +30,19 @@ function validateInteger(num) {
 /* d) - A la función suma del ejercicio 6b) agregarle una llamada que valide que los números sean enteros. 
 En caso que haya decimales mostrar un alerta con el error y 
 retorna el número convertido a entero (redondeado). */
-
+function suma(num1, num2) {
+    if (typeof(num1) !== 'number' || typeof(num2) !== 'number') {
+        alert('One of the arguments is not a number');
+        return NaN;
+    } else if (Math.trunc(num1) !== num1) {
+        alert('First number is not an integer');
+        return Math.round(num1);
+    } else if (Math.trunc(num2) !== num2) {
+        alert('Second number is not an integer');
+        return Math.round(num2);
+    } else {
+        return num1+num2
+    }
+}
 /* e) - Convertir la validación del ejercicio 6b) en una función separada y llamarla dentro de 
 la función suma probando que todo siga funcionando igual. */
