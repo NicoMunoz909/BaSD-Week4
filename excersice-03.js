@@ -1,11 +1,13 @@
 //Excercise 03 - Arrays
-var array = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+
 /*  a) -Dado el siguiente 
 array: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"] 
 mostrar por consola los meses 5 y 11 (utilizar console.log). */
+var array = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 console.log(array[4], array[10]);
 // b) - Ordenar el array de meses alfabéticamente y mostrarlo por consola (utilizar sort).
-
+array = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+console.log(array.sort());
 // c) - Agregar un elemento al principio y al final del array (utilizar unshift y push).
 
 // d) - Quitar un elemento del principio y del final del array (utilizar shift y pop).
