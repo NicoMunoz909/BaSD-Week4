@@ -9,7 +9,9 @@ console.log(array[4], array[10]);
 array = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 console.log(array.sort());
 // c) - Agregar un elemento al principio y al final del array (utilizar unshift y push).
-
+array = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+array.unshift('Month');
+array.push('Month2');
 // d) - Quitar un elemento del principio y del final del array (utilizar shift y pop).
 
 // e) - Invertir el orden del array (utilizar reverse).
