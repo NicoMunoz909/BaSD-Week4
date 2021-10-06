@@ -10,7 +10,14 @@ console.log(result);
 /* b) - A la función suma anterior, agregarle una validación para controlar si alguno 
 de los parámetros no es un número, mostrar una alerta aclarando que uno de los parámetros 
 tiene error y retornar el valor NaN como resultado. */
-
+function suma(num1, num2) {
+    if (typeof(num1) !== 'number' || typeof(num2) !== 'number') {
+        alert('One of the arguments is not a number');
+        return NaN;
+    } else {
+        return num1+num2
+    }
+}
 /* c) - Crear una función validate integer que reciba un número como parámetro y devuelva 
 verdadero si es un número entero. */
 
