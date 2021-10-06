@@ -1,12 +1,13 @@
 // Excercise 02 - Strings
 /* a) - Crear una variable de tipo string con al menos 10 caracteres y 
 convertir todo el texto en mayúscula (utilizar toUpperCase).*/
-var string1 = 'Lorem ipsum dolor sit amet';
-var uppercaseString1 = string1.toUpperCase();
+var string1 = 'Lorem ipsum dolor sit amet'.toUpperCase();
+var uppercaseString1 = string1;
 /* b) - Crear una variable de tipo string con al menos 10 caracteres y 
 generar un nuevo string con los primeros 5 caracteres 
 guardando el resultado en una nueva variable (utilizar substring).*/
-
+var string2 = 'Lorem ipsum dolor sit amet';
+var substring2 = string2.substring(0,5);
 /* c) - Crear una variable de tipo string con al menos 10 caracteres y 
 generar un nuevo string con los últimos 3 caracteres 
 guardando el resultado en una nueva variable (utilizar substring).*/
