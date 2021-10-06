@@ -34,10 +34,10 @@ function suma(num1, num2) {
     if (typeof(num1) !== 'number' || typeof(num2) !== 'number') {
         alert('One of the arguments is not a number');
         return NaN;
-    } else if (Math.trunc(num1) !== num1) {
+    } else if (!validateInteger(num1)) {
         alert('First number is not an integer');
         return Math.round(num1);
-    } else if (Math.trunc(num2) !== num2) {
+    } else if (!validateInteger(num2)) {
         alert('Second number is not an integer');
         return Math.round(num2);
     } else {
