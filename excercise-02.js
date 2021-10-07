@@ -27,4 +27,8 @@ var whitSpaceIndex = string5.indexOf(' ');
 para generar un nuevo string que tenga la primera letra de ambas palabras en mayúscula 
 y las demás letras en minúscula (utilizar indexOf, substring, toUpperCase, toLowerCase y el operador +).*/
 var string6 = 'utilizar substring';
-var myNewString = string6.substring(0,1).toUpperCase()+string6.substring(1, string6.indexOf(' ')).toLowerCase()+' '+string6.substring(string6.indexOf(' ')+1, string6.indexOf(' ')+2).toUpperCase()+string6.substring(string6.indexOf(' ')+2).toLowerCase();
+var index = string6.indexOf(' ')+1;
+var myNewString = string6.substring(0,1).toUpperCase()
++string6.substring(1, index).toLowerCase()
++string6.substring(index, index+1).toUpperCase()
++string6.substring(index+1).toLowerCase();
