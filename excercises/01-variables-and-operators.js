@@ -13,7 +13,7 @@ var string1 = 'Hello';
 var string2 = 'World';
 var concatenation = string1+string2;
 console.log('Excercise 1.b')
-console.log(`string1:${string1} string2:${string2} concatenation:${cocnatenation}`)
+console.log(`string1:${string1} string2:${string2} concatenation:${concatenation}`)
 
 /*Crear dos variables de tipo String y sumar el largo de cada variable (cantidad de letras del string) 
 guardando el resultado de la suma en una 3er variable (utilizar length).*/
