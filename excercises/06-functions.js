@@ -51,6 +51,7 @@ function validateNumber(num) {
         alert('This is not a number');
         return false;
     }
+    return true
 }
 function suma(num1, num2) {
     if (!validateNumber(num1) || !validateNumber(num2)) {
